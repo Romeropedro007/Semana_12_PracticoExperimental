@@ -1,0 +1,74 @@
+{
+    "libros": {
+        "ISBN001": {
+            "info": [
+                "El Quijote",
+                "Miguel de Cervantes"
+            ],
+            "categoria": "Novela",
+            "isbn": "ISBN001"
+        },
+        "ISBN002": {
+            "info": [
+                "Cien Anos de Soledad",
+                "Gabriel Garcia Marquez"
+            ],
+            "categoria": "Realismo Magico",
+            "isbn": "ISBN002"
+        },
+        "ISBN003": {
+            "info": [
+                "El Principito",
+                "Antoine de Saint-Exupery"
+            ],
+            "categoria": "Infantil",
+            "isbn": "ISBN003"
+        }
+    },
+    "usuarios": {
+        "U001": {
+            "nombre": "Juan Perez",
+            "id_usuario": "U001",
+            "libros_prestados": [
+                {
+                    "info": [
+                        "Cien Anos de Soledad",
+                        "Gabriel Garcia Marquez"
+                    ],
+                    "categoria": "Realismo Magico",
+                    "isbn": "ISBN002"
+                }
+            ],
+            "multa": 1.25
+        },
+        "U002": {
+            "nombre": "Maria Lopez",
+            "id_usuario": "U002",
+            "libros_prestados": [],
+            "multa": 0.0
+        },
+        "U003": {
+            "nombre": "Carlos Ramirez",
+            "id_usuario": "U003",
+            "libros_prestados": [
+                {
+                    "info": [
+                        "El Quijote",
+                        "Miguel de Cervantes"
+                    ],
+                    "categoria": "Novela",
+                    "isbn": "ISBN001"
+                },
+                {
+                    "info": [
+                        "El Principito",
+                        "Antoine de Saint-Exupery"
+                    ],
+                    "categoria": "Infantil",
+                    "isbn": "ISBN003"
+                }
+            ],
+            "multa": 3.75
+        }
+    }
+}
